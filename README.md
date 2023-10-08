@@ -1,18 +1,15 @@
 # Nerdtasks
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Nerdtasks is a powerful, fast and easy-to-use task manager.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To create a development server head over to the src-tauri directory and run `cargo tauri dev`.
+After that you'll have a running server at `localhost:4200`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `cargo tauri build`.
 
 ## Running unit tests
 
